@@ -12,6 +12,15 @@
         android:theme="@style/Theme.HerosVsUniverse"
         tools:targetApi="31">
         <activity
+            android:name=".EscolhaDosHounds"
+            android:exported="false" />
+        <activity
+            android:name=".EscolhaDoVilaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EscolhaDoHeroiActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
