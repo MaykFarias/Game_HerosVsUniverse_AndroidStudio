@@ -3,9 +3,9 @@ package com.example.herosvsuniverse
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class EscolhaDosHounds : AppCompatActivity() {
+class ResultadoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_escolha_dos_hounds)
+        setContentView(R.layout.activity_resultado)
     }
 }

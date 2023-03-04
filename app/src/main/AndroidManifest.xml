@@ -12,7 +12,19 @@
         android:theme="@style/Theme.HerosVsUniverse"
         tools:targetApi="31">
         <activity
-            android:name=".EscolhaDosHounds"
+            android:name=".ResultadoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LutaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ApresentacaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoundsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EscolhaDosHoundsActivity"
             android:exported="false" />
         <activity
             android:name=".EscolhaDoVilaoActivity"
