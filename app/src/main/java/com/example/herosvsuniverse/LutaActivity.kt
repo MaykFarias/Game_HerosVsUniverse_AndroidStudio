@@ -13,13 +13,8 @@ class LutaActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_luta)
 
-/*
-        val btnEscolhaHeroi = findViewById<Button>(R.id.btnEscolhaHeroi)
-        btnEscolhaHeroi.setOnClickListener{
-            val intent = Intent(this, ResultadoActivity::class.java)
-            startActivity(intent)
-        }
-*/
+        supportActionBar?.hide()
+
         // Initialize data.
         val myDataset = Datasource().loadAffirmations()
 
@@ -29,6 +24,13 @@ class LutaActivity : AppCompatActivity() {
         // Use this setting to improve performance if you know that changes
         // in content do not change the layout size of the RecyclerView
         recyclerView.setHasFixedSize(true)
+
+
+        val btnResultado = findViewById<Button>(R.id.button)
+        btnResultado.setOnClickListener {
+            val intent = Intent(this, ResultadoActivity::class.java)
+            startActivity(intent)
+        }
     }
 
 }

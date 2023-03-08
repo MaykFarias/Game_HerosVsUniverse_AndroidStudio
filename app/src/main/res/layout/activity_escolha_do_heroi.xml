@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:background="@color/Goldenrod"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,22 +27,26 @@
             android:gravity="center_horizontal"
             android:text="Escolha um Heroi"
             android:textSize="30dp"
+            android:textColor="@color/Brack"
             android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/imagemHeroiPrincipal"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@color/white"
             android:layout_gravity="center_horizontal"
+            android:visibility="invisible"
             app:srcCompat="@drawable/ic_launcher_background" />
 
         <TextView
-            android:id="@+id/descricaoHeroi"
-            android:layout_width="150dp"
+            android:id="@+id/descricaoHeroiPrincipal"
+            android:layout_width="200dp"
             android:layout_height="150dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="15dp"
-            android:background="@color/cardview_dark_background"
+            android:background="@color/grey11"
+            android:visibility="invisible"
             android:text="Descrição \n do Heroi \n nome: tal"
             android:textSize="20dp" />
 
@@ -50,6 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
+            android:background="@color/white"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -58,45 +64,46 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageView2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:id="@+id/simbolosuperman"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
                     android:padding="10dp"
-                    app:srcCompat="@drawable/ic_launcher_background" />
+                    app:srcCompat="@drawable/simbolosuperman" />
 
                 <ImageView
-                    android:id="@+id/imageView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:id="@+id/simbolobatmam"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
                     android:padding="10dp"
-                    app:srcCompat="@drawable/ic_launcher_background" />
+                    app:srcCompat="@drawable/simbolobatmam" />
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:id="@+id/simbolomulhermaravillha"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
                     android:padding="10dp"
-                    app:srcCompat="@drawable/ic_launcher_background" />
+                    app:srcCompat="@drawable/simbolomulhermaravillha" />
 
                 <ImageView
-                    android:id="@+id/imageView3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:id="@+id/simboloflex"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
                     android:padding="10dp"
-                    app:srcCompat="@drawable/ic_launcher_background" />
+                    app:srcCompat="@drawable/simboloflex" />
 
                 <ImageView
-                    android:id="@+id/imageView4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:id="@+id/simbololanternaverde"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
                     android:padding="10dp"
-                    app:srcCompat="@drawable/ic_launcher_background" />
+                    app:srcCompat="@drawable/simbololanternaverde" />
 
                 <ImageView
-                    android:id="@+id/imageView5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:id="@+id/simboloaquamam"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
                     android:padding="10dp"
-                    app:srcCompat="@drawable/ic_launcher_background" />
+                    app:srcCompat="@drawable/simbolaaquamam" />
 
             </LinearLayout>
         </HorizontalScrollView>
@@ -104,7 +111,7 @@
         <Button
             android:id="@+id/btnEscolhaHeroi"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:layout_marginTop="20dp"
             android:text="Esolha"
             android:textSize="20dp"/>

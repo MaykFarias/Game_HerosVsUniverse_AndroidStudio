@@ -18,6 +18,7 @@ class RoundsActivity : AppCompatActivity() {
         seekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(seekBar: SeekBar?, progress: Int, fromUser: Boolean) {
                 textView.text = "$progress"
+                //textView.text = (progress + 1).toString()
             }
 
             override fun onStartTrackingTouch(seekBar: SeekBar?) {}

@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">HerosVsUniverse</string>
+    <string name="descricaoSupermam">"Ataque 10\nDefesa 20"</string>
+    <string name="descricaoBatmam">"Ataque 10\nDefesa 20"</string>
+    <string name="descicaoMulherMaravilha">"Ataque 10\nDefesa 20"</string>
+    <string name="descricaoFlex">"Ataque 10\nDefesa 20"</string>
+    <string name="descricaoLanternaVerde">"Ataque 10\nDefesa 20"</string>
+    <string name="descricaoAquamam">"Ataque 10\nDefesa 20"</string>
+
+    <string name="descricaoCoringa">"Ataque 10\nDefesa 20"</string>
+    <string name="descricaoMagneto">"Ataque 10\nDefesa 20"</string>
+    <string name="descricaoLexLutor">"Ataque 10\nDefesa 20"</string>
+    <string name="descricaoFlexReverso">"Ataque 10\nDefesa 20"</string>
+    <string name="descricaoVenon">"Ataque 10\nDefesa 20"</string>
+    <string name="descricaoMulherGato">"Ataque 10\nDefesa 20"</string>
 </resources>
