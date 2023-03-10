@@ -30,10 +30,12 @@
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:padding="5dp"/>
 
         <Space
-            android:layout_width="120dp"
+            android:layout_width="110dp"
             android:layout_height="50dp" />
 
         <TextView
@@ -42,7 +44,9 @@
             android:layout_height="wrap_content"
             android:gravity="left"
             android:text="TextView"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:padding="5dp"/>
 
         <ImageView
             android:id="@+id/imageView"
@@ -55,9 +59,9 @@
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
-        android:layout_height="550dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginBottom="15dp"
+        android:layout_height="500dp"
+        android:layout_marginBottom="32dp"
+        android:background="@color/Brack"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -94,17 +98,19 @@
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_marginBottom="4dp"
-        android:background="@color/grey11"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/Goldenrod"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.761"
         app:layout_constraintStart_toStartOf="parent">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
+            android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:padding="15dp"
+            android:background="@color/white"
+            android:padding="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -113,6 +119,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/DarkMagenta"
                 android:orientation="vertical"
                 android:padding="10dp">
 
@@ -121,9 +128,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_marginBottom="10dp"
+                    android:background="@color/DarkMagenta"
                     android:gravity="center_horizontal"
                     android:padding="10dp"
-                    android:text="ATAQUE FORTE" />
+                    android:text="ATAQUE" />
 
                 <Button
                     android:id="@+id/button3"
@@ -133,8 +141,8 @@
                     android:gravity="center_horizontal"
                     android:padding="10dp"
                     android:text="DEFESA" />
-            </LinearLayout>
 
+            </LinearLayout>
         </androidx.cardview.widget.CardView>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
